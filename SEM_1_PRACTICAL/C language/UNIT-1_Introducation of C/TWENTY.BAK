@@ -1,0 +1,11 @@
+#include<stdio.h>
+//Write a C program to find nagetive or positive value
+	void main()
+{
+	int a;
+	clrscr();
+	printf("Enter any number:");
+	scanf("%d",&a);
+	(a>=0)? printf("%d is Positive:",a):printf("%d is nagetive:",a);
+	getch();
+}

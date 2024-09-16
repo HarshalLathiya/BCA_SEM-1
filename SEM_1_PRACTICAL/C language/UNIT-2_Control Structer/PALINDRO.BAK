@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+	void main()
+{
+	int a,c,b=0,i;
+	clrscr();
+	scanf("%d",&a);
+	i=a;
+	while(a>0)
+	{
+	b=(b*10)+a%10;
+	a=a/10;
+	}
+	printf("%d",b);
+	if(i==b)
+	{
+	printf("It's a Palindrome");
+	}
+	else
+	{
+	printf("It's not a Palindrome");
+	}
+	getch();
+}

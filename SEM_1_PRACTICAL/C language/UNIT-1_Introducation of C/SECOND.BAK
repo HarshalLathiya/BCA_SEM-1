@@ -1,0 +1,9 @@
+#include<stdio.h>
+	void main()
+{
+	clrscr();
+	printf("Lathiya Harshal\n");
+	printf("Lathiya Harshal\n");
+	printf("Lathiya Harshal");
+	getch();
+}

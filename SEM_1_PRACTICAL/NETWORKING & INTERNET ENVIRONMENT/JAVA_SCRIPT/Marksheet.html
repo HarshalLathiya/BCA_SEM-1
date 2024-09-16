@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Marksheet</title>
+	<script type="text/javascript">
+	var c=55, html=45, cf=35, maths=55,total,percentage;
+	document.write("<h1 align=center><u>Marksheet</u></h1>");
+	document.write("<b>marks of C Language:",c);
+	document.write("<br><br>marks of html:",html);
+	document.write("<br><br>marks of Cf:",cf);
+	document.write("<br><br>marks of maths:",maths);
+	total=c+html+cf+maths;
+	document.write("<br><p style=color:red;>Here is Total marks of all subject:",total,"</p>");
+	percentage=total/4;
+	document.write("<p style=color:red;>Here is percentage:",percentage,"</p>");
+	if(percentage<=100)
+		if((percentage>=0)&&(percentage<=39))
+		document.write("<br><br>Sorry you are Fail");
+		else if((percentage>=40)&&(percentage<=49))
+		document.write("<br><br>you got pass class");
+		else if((percentage>=50)&&(percentage<=59))
+		document.write("<br><br>you got second class");
+		else if((percentage>=60)&&(percentage<=69))
+		document.write("<br><br>you got first class");
+		else if((percentage>=70)&&(percentage<=100))
+		document.write("<br><br>you got Distiontion");
+	else
+{
+document.write("<br><br>Enter Valid mark");
+}	
+	</script>
+	</head>
+<body>
+</body>
+</html>

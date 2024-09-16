@@ -1,0 +1,11 @@
+#include<stdio.h>
+//Write a C program to find ASCII value of character by user
+	void main()
+{
+	char a;
+	clrscr();
+	printf("Enter any character:");
+	scanf("%c",&a);
+	printf("Here are ASCII value:%d",a);
+	getch();
+}

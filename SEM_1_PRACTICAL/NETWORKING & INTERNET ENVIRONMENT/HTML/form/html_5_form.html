@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Registration from </title>
+</head>
+
+<body bgcolor="gray">
+	<!-- inlinne css -->
+	<h1 style="background-color: yellow; border: solid red ;">
+		<center>Registration form</center>
+	</h1>
+	<form action="submit.html" method="post" name="form1" >
+		<center>
+			<table>
+				<tr>
+					<td width="12%"> <b>First name</b></td>
+					<td width="1%">&nbsp;</td>
+					<td> <input type="textbox" name="txtfirstname" autofocus required></td>
+				</tr>
+				<tr>
+					<td><b>Middle name</b></td>
+					<td> &nbsp;</td>
+					<td><input type="textbox" name="txtmiddlename"required></td>
+				</tr>
+				<tr>
+					<td><b>last name</b></td>
+					<td> &nbsp;</td>
+					<td> <input type="textbox" name="txtlastname"required></td>
+				</tr>
+				<tr>
+					<td><b>Color</b></td>	
+					<td> &nbsp;</td>
+					<td><input type="color" name="newcolor"></td>
+				</tr>
+				<tr>
+					<td><b>Date & Time</b></td>
+					<td> &nbsp;</td>
+					<td><input type="datetime-local" name="datetime"></td>
+				</tr>
+				<tr>
+					<td><b>Email</b></td>
+					<td> &nbsp;</td>
+					<td><input type="email" name="email" placeholder="email@gmail.com"></td>
+				</tr>
+				<tr>
+				<tr>
+					<td><b>Number</b></td>
+					<td> &nbsp;</td>
+					<td><input type="number" name="number" min="0" max="10" step="1" value="5"></td>
+				</tr>
+				<tr>
+					<td><b>Range</b></td>
+					<td> &nbsp;</td>
+					<td><input type="range" min="0" max="50" step="1" value="5"></td>
+				</tr>
+				<tr>
+					<td><b>Week</b></td>
+					<td> &nbsp;</td>
+					<td><input type="week" name="week"></td>
+				</tr>
+					<td><b>Gender</b></td>
+					<td>&nbsp;</td>
+					<td>
+						<input type="radio" name="gender" value="male" checked>male
+						<input type="radio" name="gender" value="female">female
+					</td>
+				</tr>
+				<tr>
+					<td><b>Hobby</b></td>
+					<td>&nbsp;</td>
+					<td>
+						<input type="checkbox" name="chksinging" value="Photography">Photography
+						<input type="checkbox" name="chkdanceing" value="dance">danceing
+						<input type="checkbox" name="chkreading" value="read">reading
+					</td>
+				</tr>
+				<tr>
+					<td><b>Address</b></td>
+					<td> &nbsp;</td>
+					<td>
+						<textarea name="txtaddress" rows="5" cols="70">insert address here </textarea>
+					<td>
+					</td>
+				<tr>
+					<td><b>City</b>
+					<td>&nbsp;</td>
+					<td>
+						<select name="cmbcity">
+							<option>ahmedabad </option>
+							<option>rajkot</option>
+							<option select>amreli</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td> <input type="submit" name="cmdsubmit" value="submit">
+					&nbsp;
+						 <input type="reset" name="cmdreset" value="reset">
+					</td>
+				</tr>
+			</table>
+		</center>
+		</form>
+</body>
+
+</html>

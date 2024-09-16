@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 200px;
+            gap: 30px;
+        }
+
+        .fist {
+            grid-column: span 2;
+        }
+
+        .card {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Grid</h1>
+    <div class="grid-container">
+        <div class="fist card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+</body>
+
+</html>

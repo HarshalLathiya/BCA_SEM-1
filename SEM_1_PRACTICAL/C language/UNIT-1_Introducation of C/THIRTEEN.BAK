@@ -1,0 +1,10 @@
+#include<stdio.h>
+//Write a C program to find Even or odd number using conditional oprator
+	void main()
+{
+	int a=5;
+	clrscr();
+	printf("a=%d";a);
+	printf(a%2==0?"Even number":"Odd number");
+	getch();
+}

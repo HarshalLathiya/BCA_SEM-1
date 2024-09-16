@@ -1,0 +1,20 @@
+#include<stdio.h>
+//Write a C program to add(sum,subtract,maltiply)two no. by user
+void main()
+{
+	int a;
+	int b;
+	int c;
+	clrscr();
+	printf("This is first value:");
+	scanf("%d",&a);
+	printf("This is second value:");
+	scanf("%d",&b);
+	c=a+b;
+	printf("sum value:%d\n",c);
+	c=a-b;
+	printf("subtracte value:%d\n",c);
+	c=a*b;
+	printf("maltiplication value:%d",c);
+	getch();
+}
